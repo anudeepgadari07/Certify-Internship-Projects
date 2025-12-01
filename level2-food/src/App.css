@@ -1,0 +1,30 @@
+body {
+  background: #fafafa;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Restaurant Card Hover */
+.restaurant-card {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.restaurant-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.menu-item {
+  border-bottom: 1px dashed #e5e5e5;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+/* Mobile better spacing */
+@media(max-width: 576px) {
+  .menu-item div {
+    font-size: 14px;
+  }
+  .menu-item button {
+    padding: 3px 12px;
+  }
+}

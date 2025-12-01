@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Tasty Bites",
+    "menu": [
+      { "id": 11, "name": "Veg Burger", "price": 120 },
+      { "id": 12, "name": "Fries", "price": 80 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pasta Palace",
+    "menu": [
+      { "id": 21, "name": "Alfredo Pasta", "price": 220 },
+      { "id": 22, "name": "Garlic Bread", "price": 60 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sushi Station",
+    "menu": [
+      { "id": 31, "name": "California Roll", "price": 280 },
+      { "id": 32, "name": "Miso Soup", "price": 90 }
+    ]
+  }
+]

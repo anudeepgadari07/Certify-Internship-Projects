@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Login - Level1</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="login-page">
+    <form id="loginForm" class="card">
+      <h2>Welcome back</h2>
+      <label>Email
+        <input type="email" id="email" required placeholder="you@example.com">
+      </label>
+      <label>Password
+        <input type="password" id="password" required placeholder="min 6 chars">
+      </label>
+      <div id="error" class="error"></div>
+      <button type="submit">Login</button>
+    </form>
+
+    <div id="success" class="toast hidden">
+      <p>Login successful! (mock)</p>
+      <button id="logout">Logout</button>
+    </div>
+  </main>
+
+<script src="app.js"></script>
+</body>
+</html>

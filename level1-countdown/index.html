@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Countdown Timer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="timer-app">
+    <div class="card">
+      <h1>Countdown Timer</h1>
+      <div class="controls">
+        <input type="number" id="minutes" min="0" placeholder="Minutes">
+        <input type="number" id="seconds" min="0" max="59" placeholder="Seconds">
+      </div>
+      <div class="display" id="display">00:00</div>
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div id="msg" class="message"></div>
+    </div>
+  </main>
+<script src="timer.js"></script>
+</body>
+</html>

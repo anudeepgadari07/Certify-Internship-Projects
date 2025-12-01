@@ -1,0 +1,11 @@
+.video-card {
+  width: 280px;
+  margin: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 8px;
+}

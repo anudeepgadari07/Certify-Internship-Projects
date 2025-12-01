@@ -1,0 +1,127 @@
+.yt-navbar {
+  background-color: #0f0f0f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.yt-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.yt-logo-img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.yt-country {
+  font-size: 10px;
+  color: #aaa;
+  margin-left: 2px;
+}
+
+/* Search bar */
+.yt-search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  border: 1px solid #303030;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 45%;
+}
+
+.yt-search-bar input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+.yt-search-bar button {
+  background-color: #222;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yt-search-bar button:hover {
+  background-color: #333;
+}
+
+.yt-mic {
+  background-color: #181818;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.yt-mic:hover {
+  background-color: #2a2a2a;
+}
+
+/* Right-side icons */
+.yt-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.yt-create {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #222;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.yt-create:hover {
+  background-color: #333;
+}
+
+.yt-icon {
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.yt-notif {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 1px 4px;
+}
+
+.yt-profile {
+  font-size: 28px;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.yt-country{
+    color: white;
+}

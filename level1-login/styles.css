@@ -1,0 +1,77 @@
+:root {
+  --bg: #f4f7fb;
+  --card: #fff;
+  --accent: #2b6ef6;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, Segoe UI, Roboto;
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #eef4ff, #fefefe);
+  align-items: center;
+  justify-content: center;
+}
+.login-page {
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+}
+.card {
+  background: var(--card);
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(17, 24, 39, 0.08);
+}
+h2 {
+  margin-top: 0;
+}
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ef;
+  margin-top: 6px;
+}
+button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+.error {
+  color: #b00020;
+  margin-top: 6px;
+  font-size: 14px;
+}
+.toast {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #e6fff3;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+.hidden {
+  display: none;
+}
+@media (max-width: 480px) {
+  .login-page {
+    padding: 12px;
+  }
+}
