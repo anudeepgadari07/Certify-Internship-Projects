@@ -70,7 +70,6 @@ These projects were built as part of the **CERTIFY Internship Program**, focusin
 ## 📧 Contact
 
 **Name:** Anudeep  
-**GitHub:** https://github.com/yourusername  
 **Email:** *anudeepgadari@gmail.com*
 
 ---
